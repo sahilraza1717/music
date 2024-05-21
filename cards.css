@@ -1,0 +1,49 @@
+img{
+    width: 250px;
+    height: 250px;
+}
+.container{
+    padding-top: 100px;
+}
+.col-auto {
+    position: relative;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 250px;
+    height: 100%;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity here */
+    opacity: 0; /* Initially hide the overlay */
+    transition: opacity 0.3s ease;
+  }
+
+  .col-auto:hover .image-overlay {
+    opacity: 1; /* Show the overlay on hover */
+  }
+
+  .image-overlay h3 {
+    color: rgba(255, 255, 255, 0.548); /* Text color of the overlay */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .justin {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* add a background color to see the div */
+    margin: 0 auto; /* center the div horizontally */
+    position: relative;
+  }
+.row{
+  gap: 50px;
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+.leftnavbar{
+    width: 23%;
+    height: 30vh;
+    border-radius: 12px;
+    background-color: rgb(19, 19, 19);
+}
+.leftnavbar .logo{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.icons a {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(194, 187, 187);
+}
+.icons{
+    padding-left: 20px;
+    padding-top: 15px ;
+}
+.leftnavbar .home{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    color: rgb(194, 187, 187);
+}
+.leftnavbar .search{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(194, 187, 187);
+}
+@media (max-width:768px) {
+    .leftnavbar{
+        width: 40%;
+        height: 25vh;
+    }
+}
+.belowsection{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(19, 19, 19);
+    border-radius: 12px;
+}
+.library {
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgb(194, 187, 187);
+}
+.angles {
+    padding-top: 15px;
+    color: rgb(194, 187, 187);
+}
+a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+  }
+.belowsection .footer1 span{
+    color: rgb(194, 187, 187);
+    padding-left: 25px;
+    font-size: 12.5px;
+    padding: 20px;
+    margin-top: 25px;
+}
+.footer1{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.khalijagah{
+    width: 100%;
+    height: 70px;
+}
+.belowsection .footer2 span{
+    color: rgb(194, 187, 187);
+    font-size: 12.5px;
+    padding: 20px;
+    margin-top: 25px;
+    
+}
+.footer2{
+    padding-left: 15px;
+}
+.belowsection .footer3{
+    color: rgb(194, 187, 187);
+    font-size: 12.5px;
+    padding: 20px;
+    
+}
+.footer4{
+    color: rgb(194, 187, 187);
+    font-size: 12.5px;
+}
+.footer1:hover{
+    cursor: pointer;
+}
+.footer2:hover{
+    cursor: pointer;
+}
+.footer3:hover{
+    cursor: pointer;
+}
+.footer4:hover{
+    cursor: pointer;
+}
